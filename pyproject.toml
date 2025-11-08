@@ -1,0 +1,25 @@
+[project]
+name = "ai-agents-learning"
+version = "0.1.0"
+description = "Learn AI agent frameworks: OpenAI Agents SDK, LangGraph, CrewAI, AutoGen"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.40.0",
+    "autogen-agentchat>=0.4.0",
+    "autogen-ext[openai]>=0.4.0",
+    "crewai>=0.95.0",
+    "langchain-anthropic>=0.3.0",
+    "langchain-community>=0.3.0",
+    "langchain-openai>=0.2.0",
+    "langgraph>=0.2.0",
+    "openai>=1.0.0",
+    "openai-agents>=0.5.0",
+    "python-dotenv>=1.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.18.2",
+    "ruff>=0.14.4",
+]

@@ -1,0 +1,7 @@
+{
+  "python.defaultInterpreterPath": "/Users/nycruslan/Documents/repos/agents/ai-agents-learning/.venv/bin/python",
+  "python.terminal.activateEnvironment": true,
+  "python.analysis.extraPaths": [
+    "/Users/nycruslan/Documents/repos/agents/ai-agents-learning/.venv/lib/python3.12/site-packages"
+  ]
+}
